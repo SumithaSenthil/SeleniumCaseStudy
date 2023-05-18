@@ -14,6 +14,7 @@ public class Login {
 		driver=Helper.startBrowserDemo("Chrome");
 		
 		driver.manage().window().maximize();
+		//5.Login To "https://demo.opencart.com/index.php?route=account/login&language=en-gb"
 		driver.navigate().to("https://demo.opencart.com/index.php?route=account/login&language=en-gb");
 		
 		driver.findElement(By.id("input-email")).sendKeys("sumitha410@gmail.com");
